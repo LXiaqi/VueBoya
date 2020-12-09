@@ -1,0 +1,21 @@
+.dialog_ipt {
+    width: 320px;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.form_item {
+    display: inline-block;
+}
+.item_width {
+    width: 420px;
+}
+.form_btn {
+    text-align: center;
+    margin-left: 0;
+}
+.form_btn /deep/ .el-form-item__content {
+    margin-left: 0 !important;
+}
